@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Bike‑Hunner | Bicicletaria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="bg-dark text-white p-3 fixed-top">
+    <div class="container d-flex justify-content-between">
+      <h1>Bike‑Hunner</h1>
+      <nav>
+        <a href="#home" class="text-white me-3">Home</a>
+        <a href="#sobre" class="text-white me-3">Sobre</a>
+        <a href="#produtos" class="text-white me-3">Produtos</a>
+        <a href="#servicos" class="text-white me-3">Serviços</a>
+        <a href="#contato" class="text-white">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container pt-5 mt-4">
+    <section id="home" class="text-center my-5">
+      <h2>Bem-vindo à Bike‑Hunner</h2>
+      <p>Seu destino para bicicletas, peças, acessórios e manutenção especializada.</p>
+      <a class="btn btn-primary" href="#contato">Agende um serviço</a>
+    </section>
+
+    <section id="produtos" class="my-5">
+      <h3>Produtos</h3>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="..\img\bike333.jpeg" class="card-img-top" alt="bike333.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Bike Modelo A</h5>
+              <p class="card-text">Ideal para trilhas urbanas.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Adicione mais cards aqui -->
+      </div>
+    </section>
+
+    <section id="servicos" class="my-5">
+      <h3>Serviços</h3>
+      <form id="agendamento">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nome" required>
+        </div>
+        <div class="mb-3">
+          <input type="date" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Agendar</button>
+      </form>
+    </section>
+
+    <section id="contato" class="my-5">
+      <h3>Contato</h3>
+      <form id="contato-form">
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Seu e‑mail" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center p-3">
+    &copy; 2025 Bike‑Hunner Bicicletaria
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
 
